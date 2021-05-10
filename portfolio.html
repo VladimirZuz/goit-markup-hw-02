@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -12,21 +17,27 @@
 
     <header class="page-header">
       <nav class="page-header-nav">
-        <a href="./index.html" class="logo">WebStudio</a>
+        <a class="logo link link" href="./index.html">WebStudio</a>
 
         <!-- Навигация на другие страницы -->
-        <ul class="site-nav">
-          <li><a class="site-nav-link" href="./index.html">Студия</a></li>
-          <li><a class="site-nav-link" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="site-nav-link" href="">Контакты</a></li>
+        <ul class="site-nav-list list">
+          <li class="site-nav-item list">
+            <a class="site-nav-link link" href="./index.html">Студия</a>
+          </li>
+          <li class="site-nav-item list">
+            <a class="site-nav-link link" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="site-nav-item list">
+            <a class="site-nav-link link" href="">Контакты</a>
+          </li>
         </ul>
       </nav>
 
-      <ul class="auth-nav">
+      <ul class="auth-nav-list list">
         <li>
-          <a class="auth-nav-mail-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="auth-nav-mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li><a class="auth-nav-tel-link" href="tel:380961111111">+38 096 111 11 11</a></li>
+        <li><a class="auth-nav-tel-link link" href="tel:380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
 
@@ -35,7 +46,7 @@
       <!--Cекция портфолио-->
       <section class="project-filter">
         <!--Секция навигации фильтр-->
-        <ul class="project-filter-button-list">
+        <ul class="project-filter-button-list list">
           <li><button class="project-filter-button" type="button">Все</button></li>
           <li><button class="project-filter-button" type="button">Веб-сайты</button></li>
           <li><button class="project-filter-button" type="button">Приложения</button></li>
@@ -47,7 +58,7 @@
         <h1 class="hero-menu-title">Портфолио</h1>
 
         <!--Проекты-->
-        <ul class="portfolio-project-list">
+        <ul class="portfolio-project-list list">
           <li class="portfolio-project-item">
             <a class="portfolio-project-item-link" href=""
               ><img src="./imagesP/1.jpg" alt="Ноутбук" width="370" height="294" />
@@ -124,22 +135,24 @@
 
     <!--Подвал-->
     <footer class="footer">
-      <a href="./index.html" class="logo">WebStudio</a>
+      <a href="./index.html" class="logo link">WebStudio</a>
       <address>
-        <ul>
-          <li>
+        <ul class="footer-adres-list list">
+          <li class="footer-adres-item">
             <a
               href="https://goo.gl/maps/Xikcf6HpzXLj2j496"
-              class="footer-adres"
+              class="footer-adres-item-link link"
               target="_blank"
               rel="noopener noreferrer"
               >г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
           <li>
-            <a href="mailto:info@devstudio.com" class="footer-auth-nav-mail"> info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="footer-auth-nav-mail link">
+              info@devstudio.com</a
+            >
           </li>
-          <li><a href="tel:380961111111" class="footer-auth-nav-tel">+38 096 111 11 11</a></li>
+          <li><a href="tel:380961111111" class="footer-auth-nav-tel link">+38 096 111 11 11</a></li>
         </ul>
       </address>
     </footer>

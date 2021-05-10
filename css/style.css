@@ -1,3 +1,31 @@
-body {
-  background-color: aliceblue;
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+.site-nav-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.auth-nav-mail-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+}
+
+.auth-nav-tel-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
 }
