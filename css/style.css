@@ -1,3 +1,9 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --logo-font: font-family: 'Raleway', sans-serif;
+  --accent-color: #2196f3;
+}
+
 .list {
   list-style: none;
 }
@@ -5,8 +11,28 @@
 .link {
   text-decoration: none;
 }
+
+body {
+  font-family: var(--main-font);
+  color: #757575;
+  letter-spacing: 0.03em;
+}
+
+/*=========================HEADER=======================*/
+.logo {
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.logo-color {
+  color: #000000;
+}
+
 .site-nav-link {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.33;
@@ -14,18 +40,190 @@
   color: #212121;
 }
 
-.auth-nav-mail-link {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.33;
-  letter-spacing: 0.02em;
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--accent-color);
 }
 
-.auth-nav-tel-link {
-  font-family: 'Roboto', sans-serif;
+.auth-nav-mail-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.02em;
+  color: #757575;
 }
+.auth-nav-mail-link:hover,
+.auth-nav-mail-link:focus {
+  color: var(--accent-color);
+}
+.auth-nav-tel-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.auth-nav-tel-link:hover,
+.auth-nav-tel-link:focus {
+  color: var(--accent-color);
+}
+/*=========================END HEADER=================*/
+
+/*========================HERO=======================*/
+.hero {
+  background: #2F303A;
+}
+.hero-menu-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.hero-menu-modal-button {
+  color: #ffffff;
+  background-color: #188ce8;
+}
+
+.hero-menu-modal-button:hover {
+  background-color: var(--accent-color);
+}
+/*========================END HERO=======================*/
+
+/*========================СЕКЦИЯ 2========================*/
+.sup-title {
+ font-weight: 700;
+ font-size: 14px;
+ line-height: 1.14;
+ text-transform: uppercase;
+ color: #212121;
+}
+
+.Feature-discription {
+font-size: 14px;
+line-height: 1.14;
+color: #757575;
+}
+
+.job-title {
+ font-weight: 700;
+ font-size: 36px;
+ line-height: 1.16x;
+ text-align: center;
+ color: #212121;
+}
+/*========================END СЕКЦИЯ 2=====================*/
+
+/*========================СЕКЦИЯ 3=========================*/
+.team-title {
+ font-weight: 700;
+ font-size: 36px;
+ line-height: 1.16;
+ text-align: center;
+ color: #212121;
+}
+
+.team-sup-title {
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.18;
+ color: #212121;
+}
+.team-discription {
+ font-size: 16px;
+ line-height: 1.18;
+ color: #757575;
+}
+/*========================END СЕКЦИЯ 3=====================*/
+
+/*=============================FOOTER=====================*/
+.footer {
+  background: #2F303A;
+}
+
+.footer-logo-color {
+  color: #FFFFFF;
+}
+.footer-adres-item-link {
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.footer-adres-item-link:hover,
+.footer-adres-item-link:focus {
+  color: var(--accent-color);
+}
+
+.footer-auth-nav-mail {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer-auth-nav-mail:hover,
+.footer-auth-nav-mail:focus {
+  color: var(--accent-color);
+}
+
+.footer-auth-nav-tel {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer-auth-nav-tel:hover,
+.footer-auth-nav-tel:focus {
+  color: var(--accent-color);
+}
+/*=============================END FOOTER=====================*/
+
+/*==============================PORTFOLIO=====================*/
+.project-filter-button {
+ color: #FFFFFF;
+  background-color: #188ce8;
+}
+
+.project-filter-button:hover,
+.project-filter-button:focus {
+  color:#212121
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/*==============================PORTFOLIO PROECT=================*/
+.portfolio-title {
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 2;
+ letter-spacing: 0.06em;
+ color: #212121;
+}
+.project-discription {
+font-size: 16px;
+line-height: 1.87;
+color: #757575;
+}
+/*==============================END PORTFOLIO PROECT==============*/
+
+/*==============================END PORTFOLIO=====================*/
