@@ -1,7 +1,11 @@
 :root {
   --main-font: 'Roboto', sans-serif;
-  --logo-font: font-family: 'Raleway', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
   --accent-color: #2196f3;
+  --link-button: #2196f3;
+  --link-nav: #757575;
+  --title: #212121;
+  --navlink: #212121;
 }
 
 .list {
@@ -25,7 +29,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--link-button);
 }
 
 .logo-color {
@@ -37,7 +41,7 @@ body {
   font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--navlink);
 }
 
 .site-nav-link:hover,
@@ -50,7 +54,7 @@ body {
   font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--link-nav);
 }
 .auth-nav-mail-link:hover,
 .auth-nav-mail-link:focus {
@@ -61,7 +65,7 @@ body {
   font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--link-nav);
 }
 
 .auth-nav-tel-link:hover,
@@ -72,7 +76,7 @@ body {
 
 /*========================HERO=======================*/
 .hero {
-  background: #2F303A;
+  background: #2f303a;
 }
 .hero-menu-title {
   font-weight: 900;
@@ -81,10 +85,14 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .hero-menu-modal-button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
   color: #ffffff;
   background-color: #188ce8;
 }
@@ -96,57 +104,57 @@ body {
 
 /*========================СЕКЦИЯ 2========================*/
 .sup-title {
- font-weight: 700;
- font-size: 14px;
- line-height: 1.14;
- text-transform: uppercase;
- color: #212121;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title);
 }
 
 .Feature-discription {
-font-size: 14px;
-line-height: 1.14;
-color: #757575;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #757575;
 }
 
 .job-title {
- font-weight: 700;
- font-size: 36px;
- line-height: 1.16x;
- text-align: center;
- color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16x;
+  text-align: center;
+  color: var(--title);
 }
 /*========================END СЕКЦИЯ 2=====================*/
 
 /*========================СЕКЦИЯ 3=========================*/
 .team-title {
- font-weight: 700;
- font-size: 36px;
- line-height: 1.16;
- text-align: center;
- color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--title);
 }
 
 .team-sup-title {
- font-weight: 500;
- font-size: 16px;
- line-height: 1.18;
- color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--title);
 }
 .team-discription {
- font-size: 16px;
- line-height: 1.18;
- color: #757575;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #757575;
 }
 /*========================END СЕКЦИЯ 3=====================*/
 
 /*=============================FOOTER=====================*/
 .footer {
-  background: #2F303A;
+  background: #2f303a;
 }
 
 .footer-logo-color {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .footer-adres-item-link {
   font-size: 14px;
@@ -188,13 +196,16 @@ color: #757575;
 
 /*==============================PORTFOLIO=====================*/
 .project-filter-button {
- color: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: #212121;
   background-color: #188ce8;
 }
 
 .project-filter-button:hover,
 .project-filter-button:focus {
-  color:#212121
+  color: #ffffff;
 }
 
 .visually-hidden {
@@ -204,7 +215,7 @@ color: #757575;
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -213,16 +224,16 @@ color: #757575;
 
 /*==============================PORTFOLIO PROECT=================*/
 .portfolio-title {
- font-weight: 700;
- font-size: 18px;
- line-height: 2;
- letter-spacing: 0.06em;
- color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title);
 }
 .project-discription {
-font-size: 16px;
-line-height: 1.87;
-color: #757575;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
 }
 /*==============================END PORTFOLIO PROECT==============*/
 
