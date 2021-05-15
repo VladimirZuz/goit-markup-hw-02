@@ -196,16 +196,18 @@ body {
 
 /*==============================PORTFOLIO=====================*/
 .project-filter-button {
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   color: #212121;
-  background-color: #188ce8;
+  background: #f5f4fa;
 }
 
 .project-filter-button:hover,
 .project-filter-button:focus {
   color: #ffffff;
+  background: #2196f3;
 }
 
 .visually-hidden {
